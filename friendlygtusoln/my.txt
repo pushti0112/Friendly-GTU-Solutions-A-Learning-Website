@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+	
+		.back{
+			background: #ADA996;  /* fallback for old browsers */ 
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:#000000;
+		}
+		.clever-btn {
+  display: inline-block;
+  min-width: 160px;
+  height: 40px;
+  background-color: #3762f0;
+  font-weight: 600;
+  font-family:Arial;
+  letter-spacing: 1px;
+  font-size: 17px;
+  color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 0 30px;
+  line-height: 40px;
+  text-align: center;
+  -webkit-transition-duration: 300ms;
+  transition-duration: 300ms; }
+  .clever-btn.active, .clever-btn:hover, .clever-btn:focus {
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #2c56df; }
+  .clever-btn.btn-2 {
+    background-color: transparent;
+    border: 1px solid #ebebeb;
+    color: rgba(0, 0, 0, 0.25); }
+    .clever-btn.btn-2:hover, .clever-btn.btn-2:focus {
+      color: #ffffff;
+      background-color: #2c56df;
+      border: 1px solid #2c56df; }
+
+	div p{
+	  
+	  color:#000000;
+	  
+	  }
+	
+	
+	</style>
+	
+</head>
+
+<body class="back">
+	
+	<div style="position: absolute;margin-top: 1%;margin-left: 43%"><img src="https://i.ibb.co/HhK07Ws/logo.png"></div>
+	
+	
+	
+	<div class="mydiv" style="background-color:#ffffff;background: rgba(0,0,0,0.2); width: 37%; font-size:20px; height: 400px;margin-left: 30%;margin-top: 0%;padding: 2%;color:#000000" >
+		
+		
+			
+			<h3>Hello user</h3>
+			
+			<p>Welcome to Friendly GTU Solutions.</p>
+			<p>You have registered successfully.Please verify your email for accessing our material.</p>
+			
+			<a href="http://localhost:61596/check.aspx?name=user"><button class="clever-btn">Verify Here</button></a>
+			<p>Thanks for helping us keep your account secure.<br>
+			   Team Friendly GTU Solutions.
+			</p>
+		
+		
+		
+		
+		
+		
+		
+		</div>
+	
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+</body>
+</html>

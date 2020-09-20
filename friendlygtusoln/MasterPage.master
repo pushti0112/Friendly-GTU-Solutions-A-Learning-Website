@@ -1,0 +1,232 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<title>Clever - Education &amp; Courses Template | Home</title>
+
+<link rel="icon" href="img/core-img/favicon.ico">
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+    
+<header class="header-area">
+
+<div class="top-header-area d-flex justify-content-between align-items-center">
+
+<div class="contact-info">
+<a><span>Phone:</span>7984584624</a>
+<a><span>Email:</span> <span class="__cf_email__" data-cfemail="friendlygtusoln@gmail.com"></span>friendlygtusoln@gmail.com</a>
+</div>
+
+<div class="follow-us">
+<span>Follow us</span>
+<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+</div>
+</div>
+
+<div class="clever-main-menu">
+<div class="classy-nav-container breakpoint-off">
+
+<nav class="classy-navbar justify-content-between" id="cleverNav">
+
+<img src="76122b62-f8aa-4fee-8cf2-3c3098f9ad1e_200x200.png" height="750px" width="150px" alt="">
+
+<div class="classy-navbar-toggler">
+<span class="navbarToggler"><span></span><span></span><span></span></span>
+</div>
+
+<div class="classy-menu">
+
+<div class="classycloseIcon">
+<div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+</div>
+
+<div class="classynav">
+<ul>
+<li><a href="home.aspx">Home</a></li>
+<li><a href="#">material</a>
+<ul class="dropdown">
+<li><a href="register.aspx">sem1</a>
+    <ul class="dropdown">
+<li><a href="register.aspx">maths3</a></li>
+<li><a href="register.aspx">EEM</a></li>
+<li><a href="register.aspx">DS</a></li>
+<li><a href="register.aspx">DBMS</a></li>
+<li><a href="register.aspx">DE</a></li>
+</ul>
+</li>
+<li><a href="register.aspx">sem2</a>
+    <ul class="dropdown">
+<li><a href="register.aspx">maths3</a></li>
+<li><a href="register.aspx">EEM</a></li>
+<li><a href="register.aspx">DS</a></li>
+<li><a href="register.aspx">DBMS</a></li>
+<li><a href="register.aspx">DE</a></li>
+</ul>
+</li>
+<li><a href="register.aspx">sem3</a>
+     <ul class="dropdown">
+<li><a href="register.aspx">maths3</a></li>
+<li><a href="register.aspx">EEM</a></li>
+<li><a href="register.aspx">DS</a></li>
+<li><a href="register.aspx">DBMS</a></li>
+<li><a href="register.aspx">DE</a></li>
+</ul>
+</li>
+<li><a href="register.aspx">sem4</a>
+    <ul class="dropdown">
+<li><a href="register.aspx">OS</a></li>
+<li><a href="register.aspx">OOPC</a></li>
+<li><a href="register.aspx">maths4</a></li>
+<li><a href="register.aspx">COA</a></li>
+<li><a href="register.aspx">CN</a></li>
+</ul>
+</li>
+<li><a href="register.aspx">sem5</a>
+     <ul class="dropdown">
+<li><a href="register.aspx">DM</a></li>
+<li><a href="register.aspx">ADA</a></li>
+<li><a href="register.aspx">OOPJ</a></li>
+<li><a href="register.aspx">MPI</a></li>
+<li><a href="register.aspx">SP</a></li>
+</ul>
+</li>
+<li><a href="register.aspx">sem6</a>
+     <ul class="dropdown">
+<li><a href="register.aspx">SE</a></li>
+<li><a href="register.aspx">CG</a></li>
+<li><a href="register.aspx">TOC</a></li>
+<li><a href="register.aspx">AJAVA</a></li>
+<li><a href="register.aspx">WT</a></li>
+<li><a href="register.aspx">.NET</a></li>
+</ul>
+</li>
+<li><a href="register.aspx">sem7</a>
+    <ul class="dropdown">
+<li><a href="register.aspx">CD</a></li>
+<li><a href="register.aspx">INS</a></li>
+<li><a href="register.aspx">MCWC</a></li>
+<li><a href="register.aspx">IP</a></li>
+<li><a href="register.aspx">SOC</a></li>
+<li><a href="register.aspx">DD</a></li>
+<li><a href="register.aspx">DMBI</a></li>
+</ul>
+</li>
+<li><a href="register.aspx">sem8</a>
+    <ul class="dropdown">
+<li><a href="register.aspx">AI</a></li>
+<li><a href="register.aspx">IA</a></li>
+<li><a href="register.aspx">BDA</a></li>
+<li><a href="register.aspx">PP</a></li>
+<li><a href="register.aspx">WDM</a></li>
+<li><a href="register.aspx">AP</a></li>
+<li><a href="register.aspx">IP</a></li>
+</ul>
+</li>
+</ul>
+<li><a href="contact.aspx">Contact</a></li>
+</ul>
+
+<div class="search-area">
+<form action="#" method="post">
+<input type="search" name="search" id="search" placeholder="Search">
+<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+</form>
+</div>
+
+<div class="register-login-area">
+<a href="register.aspx" class="btn">Register</a>
+<a href="login.aspx" class="btn active">Login</a>
+</div>
+</div>
+
+</div>
+</nav>
+</div>
+</div>
+</header>
+
+
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    
+    
+<footer class="footer-area">
+
+<div class="top-footer-area">
+<div class="container">
+<div class="row">
+<div class="col-12">
+
+<div class="footer-logo">
+<a href="home.aspx"><img src="76122b62-f8aa-4fee-8cf2-3c3098f9ad1e_200x200.png" height="750px" width="150px" alt=""></a>
+</div>
+
+<p><a href="#">
+Copyright &copy;<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="6acb32c1458de4780e63ad2c-text/javascript">document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">pusti_1601</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="bottom-footer-area d-flex justify-content-between align-items-center">
+
+<div class="contact-info">
+<a href="#"><span>Phone:</span>7984584624</a>
+<a href="#"><span>Email:</span>friendlygtusoln@gmail.com</a>
+</div>
+
+<div class="follow-us">
+<span>Follow us</span>
+<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+</div>
+</div>
+</footer>
+
+
+
+
+<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery/jquery-2.2.4.min.js" type="6acb32c1458de4780e63ad2c-text/javascript"></script>
+
+<script src="js/bootstrap/popper.min.js" type="6acb32c1458de4780e63ad2c-text/javascript"></script>
+
+<script src="js/bootstrap/bootstrap.min.js" type="6acb32c1458de4780e63ad2c-text/javascript"></script>
+
+<script src="js/plugins/plugins.js" type="6acb32c1458de4780e63ad2c-text/javascript"></script>
+
+<script src="js/active.js" type="6acb32c1458de4780e63ad2c-text/javascript"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13" type="6acb32c1458de4780e63ad2c-text/javascript"></script>
+<script type="6acb32c1458de4780e63ad2c-text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+<script src="js/rocket-loader.min.js" data-cf-settings="6acb32c1458de4780e63ad2c-|49" defer=""></script>
+</body>
+</html>
